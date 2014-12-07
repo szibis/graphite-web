@@ -363,7 +363,7 @@ function initDashboard () {
     '<tpl for=".">',
       '<div class="graph-container">',
         '<div class="graph-overlay">',
-          '<img class="graph-img" src="{url}" width="{width}" height="{height}">',
+          '<img class="graph-img" src="{url}" alt="{url}" title="{url}" width="{width}" height="{height}">',
           '<div class="overlay-close-button" onclick="javascript: graphStore.removeAt(\'{index}\'); updateGraphRecords(); justClosedGraph = true;">X</div>',
         '</div>',
       '</div>',
